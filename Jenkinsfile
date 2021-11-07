@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Create New Pipeline') {
       steps {
-        echo 'Building'
+        echo 'New pipeline created'
       }
     }
 
