@@ -1,7 +1,4 @@
-import javaposse.jobdsl.dsl.DslFactory
-import javaposse.jobdsl.dsl.jobs.WorkflowJob
-
-dslFactory.pipelineJob('job-dsl-plugin') {
+pipelineJob('job-dsl-plugin') {
     definition {
         cpsScm {
             scm {
