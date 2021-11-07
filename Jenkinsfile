@@ -1,9 +1,5 @@
-pipeline {
-    stages {
-        stage('build') {
-            steps {
-                sh 'java --version'
-            }
-        }
-    }
+job('example') {
+  steps {
+    shell('echo Hello World!')
+  }
 }
